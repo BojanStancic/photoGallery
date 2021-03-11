@@ -1,0 +1,287 @@
+
+
+
+
+.admin-photo-thumbnail {
+
+	width: 200px;
+	border-radius: 5px;
+
+}
+
+.user_image {
+
+	width: 62px;
+	height: 62px;
+	border-radius: 5px;
+
+}
+
+
+
+
+
+/*************************** Edit Photo Page Sidebar Stayles ***********************/
+
+.photo-info-box {
+
+ border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  background-color: #fff;
+
+
+}
+
+.info-box-header {
+  padding: 6px;
+ border-bottom: 1px solid #e5e5e5;
+   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+ background-color: #fff;
+
+}
+
+  
+
+
+.photo-info-box .box-inner {
+border-top: 1px solid #e5e5e5;
+background-color: #fff;
+padding: 6px;
+
+}
+
+.photo-info-box .box-inner .text {
+padding: 7px 9px 19px;
+
+}
+
+.photo-info-box .box-inner .data {
+
+	font-weight: bold;
+}
+
+.photo-info-box .info-box-footer{
+
+border-top: 1px solid #ddd;
+background-color: #ddd;
+padding: 10px;
+
+}
+
+/********  Page Pagination ********/
+
+
+.pager .active a{
+
+	background-color: #76C1EE;
+	color: #fff;
+}
+.pager .active a:hover{
+
+	background-color: #2099E1;
+	color: #fff;
+}
+
+
+
+/********* Photo Library Modal Code *************/
+
+
+
+.modal-dialog {
+	width: 90% !important;
+
+}
+
+.modal-body {
+
+	overflow: auto;
+	height: 500px !important;
+	min-height: 300px !important;
+}
+
+.modal_thumbnails {
+
+	width: 150px;
+	height: 100px !important;
+}
+
+#set_user_image {
+
+	margin: 10px;
+}
+
+#modal_seidbar{
+
+	position: fixed !important;
+}
+
+
+/*********  Login Page   **************/
+#login-id label{
+
+	color: #fff;
+}
+
+#login_form {
+	margin-top: 340px;
+	/*background-color: #fff;*/
+	/*opacity: 0.6;*/
+
+	/*padding: 10px 20px;*/
+	/*margin: 190px;	*/
+	border: 1px solid #000;
+	border-radius: 20px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#login_body {
+
+	/*background-color:   #BDBDBD;*/
+/*background-image: linear-gradient(to right , #505050, #5e5e5e, #6d6d6d, #7c7c7c, #8c8c8c, #979797, #a3a3a3, #aeaeae, #b8b8b8, #c1c1c1, #cbcbcb, #d5d5d5);*/
+background-image: url('../../backgroundImages/gallery-background-hd.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#login_btn {
+
+	background-color: #57606f;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+
+
+}
+
+#login_btn:hover {
+	background-color: #747d8c;
+}
+
+#login_body label {
+	color: #57606f;
+}
+
+#login_body h3 {
+	text-align: center;
+	color: #57606f;
+}
+
+/*********  Register Page   **************/
+#register_body {
+	background-image: linear-gradient(to right , #505050, #5e5e5e, #6d6d6d, #7c7c7c,
+	 #8c8c8c, #979797, #a3a3a3, #aeaeae, #b8b8b8, #c1c1c1, #cbcbcb, #d5d5d5);
+
+}
+
+#register_form {
+	margin-top: 80px;
+	
+	/*background-image: linear-gradient(to right top, #ffffff, #f9f9f9, #f3f3f3,
+	 #eeeeee, #e8e8e8, #e5e5e5, #e1e1e1, #dedede, #dbdbdb, #d9d9d9, #d6d6d6, #d4d4d4);*/
+
+	 background-image: linear-gradient(to right top, #f0ebeb, #e9e5e6, #e2dfe0,
+	  #dbd9da, #d4d3d4, #cfcecf, #cacaca, #c5c5c5, #c0c0c0, #bcbcbc, #b7b7b7, #b3b3b3);
+
+	/*padding: 10px 20px;*/
+	/*margin: 190px;	*/
+	border: 1px solid #000;
+	border-radius: 20px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+#register_form label {
+	color: #424242 ;
+}
+
+#register_btn {
+
+	/*background-color: #57606f;*/
+	background-color: #747d8c;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+
+
+}
+
+#register_btn:hover {
+	background-color: #57606f;
+	/*background-color: #747d8c;*/
+}
+
+/********  Input file styling (for registration page-select image)   ***********/
+
+/*.cont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}*/
+
+input[type="file"] {
+  position: absolute;
+  z-index: -1;
+  top: 6px;
+  left: 0;
+  font-size: 18px;
+  color: rgb(153,153,153);
+}
+.button-wrap {
+  position: relative;
+  margin-bottom: 5px;
+}
+.new-button {
+    display: inline;
+    padding: 6px 10px; 
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #40739e;
+    font-size: 15px;
+    color: #fff !important;
+    width: 100%;
+    /*text-decoration: none;*/
+}
+.new-button:hover {
+    background-color: #487eb0;
+}
+
+.image_name {
+    /*width: 70px;
+    height: 50px;
+    border: 1px solid red;*/
+    display: inline;  
+    /*font-weight: bold;  */
+    /*padding: 6px 10px; */
+    cursor: pointer;
+    border-radius: 4px;
+    /*background-color: #40739e;*/
+    font-size: 18px;
+    /*color: #fff;*/
+    color: #000;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.not_register {
+    display: inline; 
+    margin-left: 80px; 
+    color: #34495e;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    /*background-color: #487eb0; */
+    padding: 5px;"
+}
+
+@media screen and (max-width: 460px) {
+	.not_register {
+		display: none;
+	}
+}

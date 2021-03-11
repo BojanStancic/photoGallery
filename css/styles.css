@@ -1,0 +1,19 @@
+.home_page_photo{
+
+	width: 200px;
+	height: 150px !important;  /* --- !important - we force it with this ,and it have to do that over everything  --- */
+}
+
+/******** Home Page Pagination ********/
+/*
+.pager .active a{
+
+	background-color: #76C1EE;
+	color: #fff;
+}
+.pager .active a:hover{
+
+	background-color: #2099E1;
+	color: #fff;
+}*/
+
